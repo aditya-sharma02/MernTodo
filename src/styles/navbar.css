@@ -1,0 +1,19 @@
+.navbar{
+    width: 100%;
+    height:15%;
+    background-color: rgba(0, 0, 0, 0.767);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+.navheading{
+    font-size: xx-large;
+    font-weight: bold;
+    color: aliceblue;
+}
+.link{
+    text-decoration:none;
+    color: white;
+    font-size: large;
+}

@@ -1,0 +1,87 @@
+.body {
+    height: 80vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    height: 40%;
+    width: 30%;
+    background-color: #fff;
+    box-shadow: 2px 2px 8px grey;
+    margin: auto 10%;
+    position: relative;
+}
+
+.title1,
+.title2 {
+    height: 30%;
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: xx-large;
+    font-weight: bold;
+    box-shadow: none;
+}
+
+.title2,
+.description2 {
+    color: gray;
+}
+
+.description1,
+.description2 {
+    height: 40%;
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: x-large;
+    /* font-weight: bold; */
+    box-shadow: none;
+}
+
+.statusactive {
+    font-size: larger;
+    text-transform: capitalize;
+    color: green;
+    position: absolute;
+    top: 0%;
+}
+
+.statuscomplete {
+    font-size: larger;
+    text-transform: capitalize;
+    color: grey;
+    position: absolute;
+    top: 0%;
+}
+.del1 {
+    width: 30%;
+    height: 15%;
+    background-color: #86fa58;
+    color: black;
+    margin: 2% auto;
+    border:none;
+}
+.del2{
+    width: 30%;
+    height: 15%;
+    border: none;
+    background-color: rgb(220, 218, 218);
+    color: rgb(193, 108, 108);
+    margin: 2% auto;
+}
+.note{
+    width: 70%;
+    height: 10%;
+    background-color: #a5ff81;
+    font-size: large;
+    text-align: center;
+    /* font-weight: lighter; */
+    padding: 1%;
+    border-radius: 10px;
+}
